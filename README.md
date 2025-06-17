@@ -36,4 +36,10 @@
 使用 Docker 运行：
 ```bash
 docker build -t upload-web .
-docker run -d -p 8080:8080 upload-web
+docker run -d -p 8080:8080 upload-webdocker run -d \
+  --name upload-web \
+  -p 5002:5002 \
+  -v /opt/uploadfiles:/app/uploadfiles \
+  -v /opt/backup:/app/backup \
+  --restart unless-stopped \
+  upload-web
