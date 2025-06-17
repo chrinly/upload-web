@@ -7,6 +7,7 @@
 - **🌐 网页上传**
   - 通过浏览器即可上传 `.zip` 文件
   - 无需使用 FTP、SCP 或命令行，操作简单方便
+  - 默认限制上传文件大小为 **50MB**
 
 - **🛡️ 自动备份**
   - 如果上传文件与已有文件同名，系统会自动重命名原文件为备份并移入 `backup/` 目录
@@ -24,6 +25,12 @@
   - 可运行于任何支持 Docker 的服务器平台（Linux / Mac / Windows）
 
 ---
+### 效果展示
+
+<img width="1457" alt="image" src="https://github.com/user-attachments/assets/2bb6cfad-de1b-40a7-ae9c-63d7cfb631b8" />
+<img width="1337" alt="image" src="https://github.com/user-attachments/assets/55d6d1de-7eab-44b5-a702-646c935f8347" />
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/a3fe1515-9a47-4135-b688-b701fd3ee13c" />
+
 
 ### 🚀 快速开始
 
