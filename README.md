@@ -29,7 +29,6 @@
 
 <img width="1457" alt="image" src="https://github.com/user-attachments/assets/2bb6cfad-de1b-40a7-ae9c-63d7cfb631b8" />
 <img width="1337" alt="image" src="https://github.com/user-attachments/assets/55d6d1de-7eab-44b5-a702-646c935f8347" />
-<img width="446" alt="image" src="https://github.com/user-attachments/assets/a3fe1515-9a47-4135-b688-b701fd3ee13c" />
 
 
 ### 🚀 快速开始
