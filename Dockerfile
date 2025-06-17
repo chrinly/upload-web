@@ -10,13 +10,6 @@ COPY . /app
 # 安装依赖
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 创建上传和备份目录
-RUN mkdir -p /app/uploadfiles /app/backup
-
-# 设置环境变量（可选，防止Python缓存）
-ENV UPLOAD_FOLDER=/app/uploadfiles
-ENV BACKUP_FOLDER=/app/uploadfiles/backup
-
 # 暴露端口
 EXPOSE 5002
 
